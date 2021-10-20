@@ -49,6 +49,7 @@ public class Experience extends Candidate {
         System.out.print("professionalSkill: ");
         this.ProSkill=sc.nextLine();
         super.setTypeCandidate(0);
+        
     }
      @Override
     public String toString(){

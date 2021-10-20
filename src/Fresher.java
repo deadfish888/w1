@@ -49,6 +49,7 @@ public class Fresher extends Candidate {
             }
         }
       super.setTypeCandidate(1);
+      
     }
     public String toString(){
         return super.toString()+" | "+this.getGraduationDate()+" | "+this.getGraduationRank();       

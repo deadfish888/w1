@@ -42,6 +42,7 @@ public class Intern extends Candidate {
         System.out.print("University_name: ");
         this.University_name=sc.nextLine();
         super.setTypeCandidate(2);
+      
     }
     public String toString(){
         return super.toString()+" | "+this.getMajors()+" | "+this.getSemester()+" | "+this.getUniversity_name();

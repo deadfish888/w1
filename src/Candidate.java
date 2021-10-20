@@ -107,9 +107,9 @@ public class Candidate {
         System.out.print("ID: ");
         this.id=sc.nextLine();
         System.out.print("firstName: ");
-        this.firstName=sc.nextLine();
+        this.firstName=sc.nextLine().trim();
         System.out.print("lastName: ");
-        this.lastName=sc.nextLine();
+        this.lastName=sc.nextLine().trim();
         while(true){
             try{
                 System.out.print("birthDate: ");
@@ -135,6 +135,6 @@ public class Candidate {
         }       
         System.out.print("email: ");
         this.email=sc.nextLine();
-   
+        
     }
 }
