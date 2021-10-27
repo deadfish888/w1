@@ -64,7 +64,7 @@ public class CandyManage {
     int count=0;
     switch(type){
     case 0:    
-      for(var i:list){
+      for(Candidate i:list){
         if(i instanceof Experience)
           if(i.getFirstName().toLowerCase().contains(name.toLowerCase())||i.getLastName().toLowerCase().contains(name.toLowerCase())){
               System.out.println(((Experience)i));
@@ -77,7 +77,7 @@ public class CandyManage {
       }
       break;
     case 1:
-      for(var i:list){
+      for(Candidate i:list){
         if(i instanceof Fresher)
           if(i.getFirstName().toLowerCase().contains(name.toLowerCase())||i.getLastName().toLowerCase().contains(name.toLowerCase())){
               System.out.println(((Fresher)i));
@@ -90,7 +90,7 @@ public class CandyManage {
       }
       break;
     case 2:
-      for(var i:list){
+      for(Candidate i:list){
         if(i instanceof Intern)
           if(i.getFirstName().toLowerCase().contains(name.toLowerCase())||i.getLastName().toLowerCase().contains(name.toLowerCase())){
               System.out.println(((Intern)i));
